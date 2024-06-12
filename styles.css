@@ -227,9 +227,283 @@ header {
   display: flex;
   gap: 1.5em;
   margin: auto;
+  margin-bottom: 3.5em;
 }
 
 .galeria-2 img {
   cursor: pointer;
   border-radius: 1em;
+}
+
+.titulo {
+  max-width: 65em;
+  display: flex;
+  justify-content: start;
+  margin: auto;
+  margin-bottom: 1.875em;
+}
+
+.ofertas {
+  max-width: 97.5em;
+  margin: auto;
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 3.125em;
+}
+
+.ofertas div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 15em;
+  padding: 0 1em 1em 1em;
+}
+
+.ofertas div .descuento {
+  color: white;
+  background-color: red;
+  font-size: 12px;
+  padding: 0.167em 0.333em;
+  font-weight: 700;
+  border-radius: 0.333em;
+  width: 3.367em;
+  display: flex;
+  justify-content: center;
+}
+
+.ofertas div .imagen {
+  width: 10.25em;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0.656em;
+}
+
+.ofertas div .container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 0.5em;
+}
+
+.ofertas div .trending {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 2.25em;
+  background: linear-gradient(90deg, #ff6000, #ffc14f);
+  color: white;
+  font-weight: bold;
+  padding: 0.333em 0.667em;
+  border-radius: 0.417em;
+}
+
+.ofertas div .promocion {
+  color: #cc4d00;
+  font-size: 12px;
+  padding: 0.333em 0.667em;
+  width: 7.2em;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border: 0.083em solid #cc4d00;
+  border-radius: 0.417em;
+  margin-bottom: 0.417em;
+}
+
+.ofertas div .texto {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 0.571em;
+}
+
+.ofertas div .precio {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 0.5em;
+}
+
+.ofertas div .precio .red {
+  font-size: 20px;
+  color: #bf0019;
+  font-weight: 700;
+}
+
+.ofertas div .precio .tachado {
+  font-size: 14px;
+  color: #737373;
+  display: flex;
+  align-items: center;
+}
+
+.ofertas div .valoraciones {
+  padding: 0;
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.ofertas div .valoraciones img {
+  width: 1em;
+}
+
+.ofertas div .valoraciones img:last-of-type {
+  margin-right: 0.625em;
+}
+
+.ofertas div .valoraciones p {
+  font-size: 12px;
+  color: #333333;
+}
+
+.ofertas div .minimo {
+  color: #bf0019;
+  font-size: 12px;
+}
+
+.ofertas div .pccomponentes {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-top: 0.625em;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.ofertas div .pccomponentes img {
+  width: 0.938em;
+  height: 0.938em;
+}
+
+.ofertas div .pccomponentes span {
+  font-size: 12px;
+}
+
+.ofertas div .envio {
+  color: #118000;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0.667em;
+}
+
+.ofertas div .recibelo {
+  color: #118000;
+  font-size: 12px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  max-width: 97.5em;
+  margin: auto;
+  margin-top: 6.25em;
+  gap: 1.5em;
+  margin-bottom: 3.5em;
+}
+
+.contenedor img {
+  cursor: pointer;
+  border-radius: 0.938em;
+  width: 100%;
+}
+
+.contenedor div p {
+  padding: 1.143em 1.714em;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+  width: 17.143em;
+  text-align: center;
+}
+
+.iconos {
+  width: 97.5em;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 13em;
+  margin-top: 0.625em;
+}
+
+.iconos div p {
+  font-size: 14px;
+  margin-top: 1.714em;
+  color: #333333;
+}
+
+.titulo-2 {
+  max-width: 65em;
+  display: flex;
+  justify-content: start;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.frase {
+  font-size: 14px;
+  max-width: 111.429em;
+  display: flex;
+  justify-content: start;
+  margin: auto;
+  margin-top: 0.25em;
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.25em, 18.25em));
+  max-width: 97.5em;
+  margin: auto;
+  margin-top: 1.875em;
+  gap: 1.5em;
+}
+
+.tecnologia div {
+  display: flex;
+  flex-direction: column;
+  width: 18.313em;
+  align-items: center;
+}
+
+.tecnologia div img {
+  width: 18.313em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.tecnologia div p {
+  padding: 1.143em 1.714em;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.marca {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(372px, 1fr));
+  max-width: 97.5em;
+  margin: auto;
+  gap: 1.5em;
+  margin-top: 1.563em;
+}
+
+.marca img {
+  width: 23.25em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.marca img:nth-of-type(1),
+.marca img:nth-of-type(2),
+.marca img:nth-of-type(3),
+.marca img:nth-of-type(4) {
+  margin-bottom: 2em;
 }
