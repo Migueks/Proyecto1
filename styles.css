@@ -507,3 +507,237 @@ header {
 .marca img:nth-of-type(4) {
   margin-bottom: 2em;
 }
+
+footer {
+  max-width: 116em;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 4em 2.286em 2.857em;
+  max-height: 44.143em;
+  font-size: 14px;
+}
+
+.hr-footer {
+  margin-top: 1.875em;
+}
+
+footer ul {
+  list-style: none;
+  width: 16.125em;
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul li {
+  padding: 0.5em 2.875em 0.5em 1em;
+  height: 2.5em;
+  display: flex;
+}
+
+footer ul li:first-child {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.313em;
+}
+
+footer ul li:not(:first-child):not(.footer-lastchild li):hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  transition: 0.5s;
+}
+
+footer ul li img {
+  margin-right: 0.625em;
+  width: 1.25em;
+  height: 1.25em;
+}
+
+footer ul:last-child {
+  width: 16.688em;
+}
+
+.footer-lastchild .españa select {
+  font-size: 17px;
+  width: 14.765em;
+  height: 2.647em;
+}
+
+.footer-lastchild li:not(:first-child) {
+  cursor: pointer;
+}
+
+.footer-lastchild li .visa {
+  width: 100%;
+  height: 3.125em;
+  margin-top: 1.5em;
+}
+
+.footer-lastchild .app {
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+.footer-lastchild .android {
+  width: 19em;
+  display: flex;
+  align-items: center;
+}
+
+.footer-lastchild .android img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.footer-lastchild .apple {
+  width: 19em;
+  display: flex;
+  align-items: center;
+}
+
+.footer-lastchild .apple img {
+  height: 1.25em;
+  width: 1.25em;
+  margin-right: 0.609em;
+  margin-left: 0.188em;
+}
+
+.footer-lastchild .qr img {
+  width: 8.125em;
+  height: 8.125em;
+}
+
+#btn-menu {
+  display: none;
+}
+
+.container-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+}
+
+#btn-menu:checked ~ .container-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cont-menu {
+  width: 100%;
+  max-width: 25em;
+  background: white;
+  height: 100vh;
+  position: relative;
+  transition: all 500ms ease;
+}
+
+.cont-menu .cruz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 2.5em;
+  margin-left: 1.25em;
+  transform: translateY(20%);
+  height: 2.5em;
+  border-radius: 0.313em;
+  color: #333333;
+}
+
+.cont-menu .cruz:hover {
+  background-color: #d0d0d0;
+}
+
+.cont-menu nav {
+  transform: translateY(4%);
+  padding-left: 3.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.813em;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125em;
+}
+
+.titulos .todas-categorias {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5em;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titulos .todas-categorias:hover {
+  color: #ff6000;
+}
+
+.titulos .ofertas {
+  display: flex;
+  flex-direction: row;
+  gap: 2.65em;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff6000, #ffc14f);
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.176em;
+}
+
+.bold p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bold p img {
+  margin-right: 2.5em;
+}
+
+.bold p:hover {
+  color: #ff6000;
+}
+
+.normal {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  color: #333333;
+  font-weight: 400;
+  gap: 1.294em;
+}
+
+.normal p:hover {
+  cursor: pointer;
+  color: #ff6000;
+}
+
+.normal p span {
+  background: linear-gradient(90deg, #ff6000, #ffc14f);
+  background-clip: text;
+  color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+  border: 0.083em solid #cccccc;
+  border-radius: 0.417em;
+  padding: 0.333em 0.583em;
+  margin-left: 0.25em;
+}

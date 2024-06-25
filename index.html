@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>PcComponentes.com | Tienda de Informática y Tecnología online</title>
     <link rel="shorcut icon" href="./assets/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Página web PcComponentes" />
+    <meta name="robots" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta property="og:title" content="html" />
+    <meta property="twitter:title" content="html" />
   </head>
   <body>
     <header>
@@ -15,10 +21,10 @@
           alt="logo pccomponentes"
           class="logo"
       /></a>
-      <div class="categorias">
+      <label for="btn-menu" class="categorias">
         <img src="./assets/svg/menu.svg" alt="menú hamburguesa" />
         <p>Todas las categorías</p>
-      </div>
+      </label>
       <div class="catalogo">
         <p>Todo el catálogo</p>
         <img
@@ -39,6 +45,66 @@
         <p>Mi cesta</p>
       </div>
     </header>
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+      <div class="cont-menu">
+        <label for="btn-menu" class="cruz">✖</label>
+        <nav>
+          <div class="titulos">
+            <h2 class="todas-categorias">
+              Todas las categorías
+              <img
+                src="./assets/svg/arrow.svg"
+                alt="cabeza de flecha dirección derecha"
+              />
+            </h2>
+            <h2 class="ofertas">
+              Campañas y ofertas<img
+                src="./assets/svg/arrow.svg"
+                alt="cabeza de flecha dirección derecha"
+              />
+            </h2>
+          </div>
+          <div class="bold">
+            <p>Componentes</p>
+            <p>Portátiles</p>
+            <p>Smartphones</p>
+            <p>Monitores</p>
+            <p>
+              Gaming
+              <img
+                src="./assets/svg/arrow.svg"
+                alt="cabeza de flecha dirección derecha"
+              />
+            </p>
+            <p>
+              Televisores
+              <img
+                src="./assets/svg/arrow.svg"
+                alt="cabeza de flecha dirección derecha"
+              />
+            </p>
+            <p>
+              Hogar
+              <img
+                src="./assets/svg/arrow.svg"
+                alt="cabeza de flecha dirección derecha"
+              />
+            </p>
+          </div>
+          <div class="normal">
+            <p>Servicios <span>Te recomendamos</span></p>
+            <p>Configurador PCs <span>Trending</span></p>
+            <p>Ordenadores PcCom <span>Te recomendamos</span></p>
+            <p>Nuestras recomendaciones para ti</p>
+            <p>Nuestras Marcas</p>
+            <p>Reacondicionados</p>
+            <p>Espacio Apple</p>
+            <p>Descubre nuestro Blog</p>
+          </div>
+        </nav>
+      </div>
+    </div>
     <hr class="hr-top" />
     <nav>
       <ul class="menu-secundario">
@@ -613,5 +679,111 @@
         alt="pendrive y auriculares"
       />
     </div>
+    <hr class="hr-footer" />
+    <footer>
+      <ul>
+        <li>Por qué comprar</li>
+        <li>Cómo comprar</li>
+        <li>Formas de pago</li>
+        <li>Gastos de envío</li>
+        <li>Cupones descuento</li>
+        <li>Preguntas frecuentes</li>
+        <li>Opiniones de clientes</li>
+        <li>Tarjetas regalo</li>
+      </ul>
+      <ul>
+        <li>Quiénes somos</li>
+        <li>Quiénes somos</li>
+        <li>Compromisos</li>
+        <li>Nuestras tiendas</li>
+        <li>Nuestras Marcas</li>
+        <li>Condiciones de compra</li>
+        <li>Afiliado</li>
+        <li>Aviso legal</li>
+        <li>Privacidad</li>
+      </ul>
+      <ul>
+        <li>Contactar</li>
+        <li>Contacto y ayuda</li>
+        <li>Devoluciones y Garantías</li>
+        <li>Wiki PcComponentes</li>
+        <li>Opina y Gana</li>
+        <li>Publicidad</li>
+        <li>Trabaja con nosotros</li>
+        <li>Canal ético</li>
+        <li>Política de cookies</li>
+      </ul>
+      <ul>
+        <li>Otros</li>
+        <li>Replay</li>
+        <li>Black Friday</li>
+        <li>Cyber Monday</li>
+        <li>PcDays</li>
+        <li>Marketplace</li>
+        <li>Servicio logísitco Fulfillment</li>
+        <li>Servicio de reparaciones</li>
+        <li>Concursos</li>
+        <li>Cita asistencia técnica</li>
+        <li>Responsabilidad Social</li>
+        <li>Programa de embajadores</li>
+      </ul>
+      <ul>
+        <li>Comunidad</li>
+        <li>
+          <img src="./assets/img/favicon.png" alt="Logo PcComponentes" />Blog
+        </li>
+        <li>
+          <img src="./assets/svg/instagram.svg" alt="Logo Instagram" />Instagram
+        </li>
+        <li>
+          <img src="./assets/svg/twitter.svg" alt="Logo Twitter" />Twitter
+        </li>
+        <li>
+          <img src="./assets/svg/facebook.svg" alt="Logo Facebook" />Facebook
+        </li>
+        <li>
+          <img src="./assets/svg/telegram.svg" alt="Logo Telegram" />Telegram
+        </li>
+        <li>
+          <img src="./assets/svg/youtube.svg" alt="Logo YouTube" />Youtube
+        </li>
+        <li><img src="./assets/svg/tiktok.svg" alt="Logo TikTok" />TikTok</li>
+        <li><img src="./assets/svg/twitch.svg" alt="Logo Twitch" />Twitch</li>
+      </ul>
+      <ul class="footer-lastchild">
+        <li>PcComponentes en</li>
+        <li class="españa">
+          <select>
+            <option>España</option>
+            <option>Portugal</option>
+            <option>Francia</option>
+            <option>Italia</option>
+          </select>
+        </li>
+        <li>
+          <img
+            src="./assets/img/visa.webp"
+            alt="logo Visa y Mastercard"
+            class="visa"
+          />
+        </li>
+        <li></li>
+        <li class="app">Descarga nuestra App</li>
+        <li class="android">
+          <img src="./assets/svg/andorid.svg" alt="logo Andorid" />Descarga App
+          Google Play
+        </li>
+        <li class="apple">
+          <img src="./assets/svg/apple.svg" alt="logo Apple" />Descarga App en
+          App Store
+        </li>
+        <li class="qr">
+          <img
+            src="	https://cdn.pccomponentes.com/img/repositorio/otros/qr-app-pcc-es.png"
+            alt="codigo QR"
+          />
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
