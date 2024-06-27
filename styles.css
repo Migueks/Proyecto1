@@ -741,3 +741,237 @@ footer ul:last-child {
   padding: 0.333em 0.583em;
   margin-left: 0.25em;
 }
+
+@media (max-width: 480px) {
+  header {
+    max-width: 100%;
+    margin-left: 1em;
+  }
+
+  .logo {
+    width: 4em;
+    height: 4em;
+  }
+
+  .categorias {
+    padding: 8px;
+  }
+
+  .categorias p {
+    display: none;
+  }
+
+  .categorias:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+
+  .catalogo {
+    display: none;
+  }
+
+  .buscar {
+    margin: 0;
+    width: 1000px;
+  }
+
+  .cuenta {
+    margin-left: 0;
+  }
+
+  .cuenta p {
+    display: none;
+  }
+
+  .carrito p {
+    display: none;
+  }
+
+  .menu-secundario {
+    display: none;
+  }
+
+  .hr-bot {
+    display: none;
+  }
+
+  .parrafo {
+    margin-left: 1em;
+  }
+
+  .galeria {
+    max-width: 23em;
+    margin-bottom: 2.5em;
+    flex-direction: column;
+  }
+
+  .galeria-2 {
+    max-width: 23em;
+    flex-direction: column;
+  }
+
+  .titulo {
+    margin-left: 1em;
+    font-size: 20px;
+  }
+
+  .ofertas {
+    max-width: 23em;
+    margin-left: auto;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .ofertas div:not(:nth-child(-n + 2)) {
+    display: none;
+  }
+
+  .ofertas div {
+    max-width: 10.938em;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 23em;
+    margin-top: 0;
+  }
+
+  .contenedor div p {
+    width: 100%;
+  }
+
+  .iconos {
+    width: 97.5em;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .iconos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13em;
+    margin-top: 0.625em;
+  }
+
+  .iconos div p {
+    font-size: 14px;
+    margin-top: 1.714em;
+    color: #333333;
+  }
+
+  .iconos {
+    width: 23em;
+  }
+
+  .iconos div:not(:nth-child(-n + 2)) {
+    display: none;
+  }
+
+  .iconos div {
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .iconos div p {
+    width: 8em;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .titulo-2 {
+    max-width: 23em;
+    margin-left: 0.8em;
+    font-size: 20px;
+  }
+
+  .frase {
+    font-size: 14px;
+    max-width: 25em;
+    margin-left: 1.145em;
+    margin-top: 0.2em;
+  }
+
+  .tecnologia {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 23em;
+    gap: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.875em;
+  }
+
+  .tecnologia div {
+    width: 100%;
+  }
+
+  .tecnologia div img {
+    width: 100%;
+  }
+
+  .tecnologia div p {
+    text-align: center;
+  }
+
+  .marca {
+    max-width: 23em;
+    gap: 1.5em;
+    margin: 1em 1em;
+  }
+
+  .marca img {
+    width: 22em;
+  }
+
+  .marca img:nth-of-type(1),
+  .marca img:nth-of-type(2),
+  .marca img:nth-of-type(3),
+  .marca img:nth-of-type(4) {
+    margin-bottom: 0em;
+  }
+
+  footer {
+    max-width: 26.286em;
+    padding: 0;
+    padding-top: 1em;
+    margin-left: 1.143em;
+    margin-right: 1.143em;
+    flex-direction: column;
+  }
+
+  .hr-footer {
+    margin-top: 1.875em;
+  }
+
+  footer ul:not(.footer-lastchild) li:not(:first-child) {
+    display: none;
+  }
+
+  footer ul:not(.footer-lastchild) li:first-child {
+    border-bottom: 1px solid #cccccc;
+  }
+
+  footer ul {
+    width: 25em;
+  }
+
+  .footer-lastchild {
+    width: 25em;
+  }
+
+  .footer-lastchild .qr {
+    display: none;
+  }
+
+  .footer-lastchild li .visa {
+    display: flex;
+    margin-top: 2em;
+  }
+
+  .footer-lastchild .apple {
+    margin-bottom: 2em;
+  }
+}
