@@ -742,7 +742,7 @@ footer ul:last-child {
   margin-left: 0.25em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   header {
     max-width: 100%;
     margin-left: 1em;
@@ -754,7 +754,7 @@ footer ul:last-child {
   }
 
   .categorias {
-    padding: 8px;
+    padding: 0.5em;
   }
 
   .categorias p {
@@ -772,7 +772,7 @@ footer ul:last-child {
 
   .buscar {
     margin: 0;
-    width: 1000px;
+    width: 62.5em;
   }
 
   .cuenta {
@@ -818,7 +818,7 @@ footer ul:last-child {
   .ofertas {
     max-width: 23em;
     margin-left: auto;
-    gap: 10px;
+    gap: 0.625em;
     padding: 0;
   }
 
@@ -917,13 +917,13 @@ footer ul:last-child {
   }
 
   .marca {
-    max-width: 23em;
+    width: 95%;
     gap: 1.5em;
-    margin: 1em 1em;
+    margin: auto;
   }
 
   .marca img {
-    width: 22em;
+    width: 100%;
   }
 
   .marca img:nth-of-type(1),
@@ -973,5 +973,399 @@ footer ul:last-child {
 
   .footer-lastchild .apple {
     margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 1000px) {
+  header {
+    max-width: 95%;
+    margin-left: 1em;
+    margin: auto;
+    padding-right: 0;
+    padding-top: 0;
+    gap: 0.313em;
+  }
+
+  .logo {
+    width: 4em;
+    height: 4em;
+  }
+
+  .categorias {
+    padding-left: 0.5em;
+    padding-right: 0;
+    width: 10%;
+  }
+
+  .categorias p {
+    display: none;
+  }
+
+  .categorias:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+
+  .catalogo {
+    display: none;
+  }
+
+  .buscar {
+    width: 100%;
+    border-radius: 0.5em;
+  }
+
+  .cuenta {
+    margin: 0;
+    width: 10%;
+    margin-left: 0.625em;
+  }
+
+  .cuenta p {
+    display: none;
+  }
+
+  .carrito {
+    width: 10%;
+  }
+
+  .carrito p {
+    display: none;
+  }
+
+  .hr-top {
+    margin: 0;
+  }
+
+  .menu-secundario {
+    display: none;
+  }
+
+  .hr-bot {
+    display: none;
+  }
+
+  .parrafo {
+    width: 95%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .galeria {
+    display: none;
+  }
+
+  .galeria-2 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .galeria-2 img {
+    width: 100%;
+  }
+
+  .galeria-2 img:not(:first-child) {
+    display: none;
+  }
+
+  .titulo {
+    width: 95%;
+    margin: auto;
+    margin-top: 0.833em;
+    margin-bottom: 1.042em;
+  }
+
+  .ofertas {
+    width: 95%;
+    gap: 1em;
+  }
+
+  .ofertas div {
+    padding: 0;
+    width: 100%;
+  }
+
+  .ofertas div:not(:nth-child(-n + 3)) {
+    display: none;
+  }
+
+  .contenedor {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    gap: 1em;
+  }
+
+  .contenedor div {
+    width: 100%;
+  }
+
+  .iconos {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 2.5em;
+  }
+
+  .iconos div:not(:nth-child(-n + 4)) {
+    display: none;
+  }
+
+  .titulo-2 {
+    width: 95%;
+  }
+
+  .frase {
+    width: 95%;
+  }
+
+  .tecnologia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+    width: 95%;
+  }
+
+  .tecnologia div img {
+    width: 100%;
+  }
+
+  .tecnologia div:last-child {
+    display: none;
+  }
+
+  .marca {
+    width: 95%;
+    margin-left: auto;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    gap: 5px;
+  }
+
+  .marca img {
+    width: 100%;
+  }
+
+  footer {
+    width: 95%;
+    padding: 0;
+    padding-top: 3em;
+    margin-left: auto;
+    flex-direction: column;
+  }
+
+  .hr-footer {
+    margin-top: 1.875em;
+  }
+
+  footer ul:not(.footer-lastchild) li:not(:first-child) {
+    display: none;
+  }
+
+  footer ul:not(.footer-lastchild) li:first-child {
+    border-bottom: 1px solid #cccccc;
+  }
+
+  footer ul {
+    width: 100%;
+  }
+
+  .footer-lastchild .qr {
+    display: none;
+  }
+
+  .footer-lastchild li .visa {
+    display: flex;
+    margin-top: 2em;
+  }
+
+  .footer-lastchild .apple {
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1600px) {
+  header {
+    max-width: 95%;
+    margin-left: 1em;
+    margin: auto;
+    padding-right: 0;
+    padding-top: 0;
+    gap: 0.313em;
+  }
+
+  .logo {
+    width: 4em;
+    height: 4em;
+  }
+
+  .categorias {
+    padding-left: 0.5em;
+    padding-right: 0;
+    width: 10%;
+  }
+
+  .categorias p {
+    display: none;
+  }
+
+  .categorias:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+
+  .catalogo {
+    display: none;
+  }
+
+  .buscar {
+    width: 100%;
+    border-radius: 0.5em;
+  }
+
+  .cuenta {
+    margin: 0;
+    width: 10%;
+    margin-left: 1em;
+  }
+
+  .cuenta p {
+    font-size: 14px;
+  }
+
+  .carrito {
+    width: 10%;
+  }
+
+  .carrito p {
+    font-size: 14px;
+  }
+
+  .hr-top {
+    margin: 0;
+  }
+
+  .menu-secundario {
+    width: 95%;
+    margin: auto;
+    gap: 0;
+    white-space: nowrap;
+  }
+
+  .menu-secundario li {
+    padding-right: 0.857em;
+    padding-left: 0.857em;
+  }
+
+  .parrafo {
+    width: 95%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .galeria {
+    width: 95%;
+    gap: 10px;
+  }
+
+  .galeria img {
+    width: 49.5%;
+  }
+
+  .galeria img:not(:nth-child(-n + 2)) {
+    display: none;
+  }
+
+  .galeria-2 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .galeria-2 img {
+    width: 100%;
+  }
+
+  .galeria-2 img:not(:first-child) {
+    display: none;
+  }
+
+  .titulo {
+    width: 95%;
+    margin: auto;
+    margin-top: 0.833em;
+    margin-bottom: 1.042em;
+  }
+
+  .ofertas {
+    width: 95%;
+    gap: 1em;
+  }
+
+  .ofertas div {
+    padding: 0;
+    width: 100%;
+  }
+
+  .ofertas div:not(:nth-child(-n + 4)) {
+    display: none;
+  }
+
+  .contenedor {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+
+  .contenedor div {
+    width: 100%;
+  }
+
+  .iconos {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 2.5em;
+  }
+
+  .iconos div:not(:nth-child(-n + 5)) {
+    display: none;
+  }
+
+  .titulo-2 {
+    width: 95%;
+  }
+
+  .frase {
+    width: 95%;
+  }
+
+  .tecnologia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95%;
+  }
+
+  .tecnologia div img {
+    width: 100%;
+  }
+
+  .marca {
+    width: 95%;
+    margin-left: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+  }
+
+  .marca img {
+    width: 100%;
+  }
+
+  .marca img:not(:nth-child(-n + 6)) {
+    display: none;
   }
 }
