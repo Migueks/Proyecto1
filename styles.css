@@ -251,6 +251,18 @@ header {
   margin-bottom: 3.125em;
 }
 
+.ofertas a {
+  text-decoration: none;
+}
+
+.ofertas a {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 15em;
+  padding: 0 1em 1em 1em;
+}
+
 .ofertas div {
   display: flex;
   flex-direction: column;
@@ -815,19 +827,21 @@ footer ul:last-child {
     font-size: 20px;
   }
 
-  .ofertas {
+  .ofertas a {
     max-width: 23em;
-    margin-left: auto;
+    justify-content: center;
+    margin: auto;
     gap: 0.625em;
     padding: 0;
   }
 
-  .ofertas div:not(:nth-child(-n + 2)) {
+  .ofertas a:not(:nth-child(-n + 2)) {
     display: none;
   }
 
-  .ofertas div {
+  .ofertas a div {
     max-width: 10.938em;
+    margin: auto;
   }
 
   .contenedor {
@@ -884,14 +898,14 @@ footer ul:last-child {
 
   .titulo-2 {
     max-width: 23em;
-    margin-left: 0.8em;
+    margin-left: 1em;
     font-size: 20px;
   }
 
   .frase {
     font-size: 14px;
     max-width: 25em;
-    margin-left: 1.145em;
+    margin-left: 1.5em;
     margin-top: 0.2em;
   }
 
@@ -899,7 +913,7 @@ footer ul:last-child {
     grid-template-columns: repeat(2, 1fr);
     max-width: 23em;
     gap: 1em;
-    margin-left: 1em;
+    margin-left: 1.5em;
     margin-right: 1em;
     margin-top: 1.875em;
   }
@@ -1077,16 +1091,18 @@ footer ul:last-child {
   }
 
   .ofertas {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
     width: 95%;
     gap: 1em;
   }
 
-  .ofertas div {
+  .ofertas a {
     padding: 0;
     width: 100%;
   }
 
-  .ofertas div:not(:nth-child(-n + 3)) {
+  .ofertas a:not(:nth-child(-n + 3)) {
     display: none;
   }
 
@@ -1303,12 +1319,12 @@ footer ul:last-child {
     gap: 1em;
   }
 
-  .ofertas div {
+  .ofertas a {
     padding: 0;
     width: 100%;
   }
 
-  .ofertas div:not(:nth-child(-n + 4)) {
+  .ofertas a:not(:nth-child(-n + 4)) {
     display: none;
   }
 
@@ -1322,6 +1338,10 @@ footer ul:last-child {
 
   .contenedor div {
     width: 100%;
+  }
+
+  .contenedor div p {
+    margin: auto;
   }
 
   .iconos {
